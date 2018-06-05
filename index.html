@@ -6,18 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Курс по фронтэнду 1.5</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <nav>
+        <a href="#whoami">Кто я такой</a>
+    </nav>
     <header>
-        <a href="#">Кто я такой</a>
         <h1>Курс по фронтэнду.
             <br>Версия 1.5</h1>
         <p>Премиальный. Бутиковый. Практический.</p>
     </header>
-    <section>
-        <h2>Кто я такой</h2>
-        <article>
+
+    <main>
+        <section id="whoami">
+            <h2>Кто я такой</h2>
+
             <p>Меня зовут Евгений Родионов и я учу людей фронтэнду.</p>
             <p>Я руководил разработкой Рублевки.ру и обучил команду, которая сейчас работает в Тинькофф, Рокетбанке, Ростелекоме
                 и немецком Kairion.</p>
@@ -28,33 +33,35 @@
                 <a href="№"> 5-минутные видео на Ютубе.</a>
             </p>
             <p>Хочу, чтобы в России были крутые интерфейсы. Я взращиваю крутых ребят, с которыми готов работать сам.</p>
-            <p>Спроси у Жени, Ильи, Кости, Люды и Лизы.</p>
-        </article>
-        <h2>Ченджлог к версии 1.5</h2>
-        <aside>
-            Я провел 4 потока и понял узкие места курса. Да, люди добивались своих целей - находили работу или запускают продукты, но
-            сила трения была высокой, so every update of our Facebook app includes
-            <br> improvements for speed and reliability.
-            <br> Bug fixes and perfomance improvements.
-        </aside>
-    </section>
-    <section>
-        <h3>Было</h3>
-        <ul>
-            <li>материалы готовились во время курса;</li>
-            <li>мало теории;</li>
-            <li>нестабильная программа;</li>
-        </ul>
-        <h3>Стало</h3>
-        <ul>
-            <li>
-                <img src="img/fire.png" alt="fire" width="15"> макеты и API сделаны до начала курса;</li>
-            <li>
-                <img src="img/fire.png" alt="fire" width="15"> новые объясняющие видео;</li>
-            <li>
-                <img src="img/fire.png" alt="fire" width="15"> программа не будет прыгать на ходу;</li>
-        </ul>
-    </section>
+            <aside>Спроси у Жени, Ильи, Кости, Люды и Лизы.</aside>
+        </section>
+        <section id="changelog">
+            <h2>Ченджлог к версии 1.5</h2>
+            <p>
+                Я провел 4 потока и понял узкие места курса. Да, люди добивались своих целей - находили работу или запускают продукты, но
+                сила трения была высокой, so every update of our Facebook app includes
+                <br> improvements for speed and reliability.
+                <br> Bug fixes and perfomance improvements.
+            </p>
+
+
+            <h3>Было</h3>
+            <ul>
+                <li>материалы готовились во время курса;</li>
+                <li>мало теории;</li>
+                <li>нестабильная программа;</li>
+            </ul>
+            <h3>Стало</h3>
+            <ul>
+                <li>
+                    <img src="img/fire.png" alt="fire" width="15"> макеты и API сделаны до начала курса;</li>
+                <li>
+                    <img src="img/fire.png" alt="fire" width="15"> новые объясняющие видео;</li>
+                <li>
+                    <img src="img/fire.png" alt="fire" width="15"> программа не будет прыгать на ходу;</li>
+            </ul>
+        </section>
+    </main>
 </body>
 
 </html>
